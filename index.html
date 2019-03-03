@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Art Direction & Design. Coming Soon.">
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: -.06em;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 1em;
+      }
+      .quit-bg {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+      }
+      h1 {
+        font-weight: normal;
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      footer {
+        font-size: .75em;
+        display: flex;
+        position: absolute;
+        padding: 6vw;
+        bottom: 0;
+        width: 100vw;
+        max-width: 100vw;
+        justify-content: space-between;
+      }
+      @media ( min-width: 1024px ) {
+        body {
+          font-size: 1.2em;
+        }
+        h1 {
+          font-size: 2.5em;
+        }
+        footer {
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      role="presentation"
+      sizes="(max-width: 7400px) 40vw, 2960px"
+      srcset="
+        assets/img/quit-bg_irivpx_c_scale,w_964.jpg 964w,
+        assets/img/quit-bg_irivpx_c_scale,w_1366.jpg 1366w,
+        assets/img/quit-bg_irivpx_c_scale,w_1674.jpg 1674w,
+        assets/img/quit-bg_irivpx_c_scale,w_1941.jpg 1941w,
+        assets/img/quit-bg_irivpx_c_scale,w_2189.jpg 2189w,
+        assets/img/quit-bg_irivpx_c_scale,w_2418.jpg 2418w,
+        assets/img/quit-bg_irivpx_c_scale,w_2656.jpg 2656w,
+        assets/img/quit-bg_irivpx_c_scale,w_2882.jpg 2882w,
+        assets/img/quit-bg_irivpx_c_scale,w_2960.jpg 2960w"
+        src="assets/img/quit-bg_irivpx_c_scale,w_2960.jpg"
+      alt="" class="quit-bg" />
+      <h1>Quit</h1>
+      <footer>
+        <span>Art Direction &amp; Design</span>
+        <span>Site Coming Soon</span>
+      </footer>
+  </body>
+</html>
