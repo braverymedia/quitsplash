@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://quit.netlify.com/* http://quit.studio/:splat 301!
